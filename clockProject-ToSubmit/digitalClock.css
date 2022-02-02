@@ -1,0 +1,361 @@
+body {
+    background-color: blueviolet;
+}
+.container1 {
+    margin-left:20px;
+    display:inline-block;
+    position: relative;
+    width:30%;
+    height:100%;
+}
+.class1 {
+    position: absolute;
+    width:50%;
+    height:15%;
+  /*  border:1px solid black;*/
+  /*  background-color: white;*/
+    background-image: url("clock_logo.png");
+    background-size: 100% 100%;
+}
+
+.class2 {
+    margin-top: 100px;
+    position:absolute;
+    width:100%;
+    height:40%;
+    display: grid;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.innerclass1 {
+    
+   /* border:1px solid black;*/
+    position: relative;
+}
+.innerclass2 {
+  /*  width:100%;
+    height:25%;
+    border-style: solid;*/
+  /*  border:1px solid black; */
+}
+.innerclass3 {
+   /* width:100%;
+    height:25%;
+    border-style: solid;*/
+  /*  border:1px solid black;*/
+}
+.innerclass4 {
+    width:100%;
+    height:25%;
+    border-style: solid;
+}
+
+
+.class3 {
+    position:absolute;
+    margin-top:400px;
+    width:20%;
+    height: 40px;
+}
+.class4 {
+    position: absolute;
+    width: 70%;
+    height:20%;
+    background-color: violet;
+ /*   border:1px solid black; */
+    margin-top: 500px;
+    display: grid;
+    border-radius: 20px;
+    text-align: center;
+
+}
+/*.morningTime {
+    border: 1px solid black;
+}
+.afterNoonTime {
+    border: 1px solid black;
+}
+.nightTime {
+    border: 1px solid black;
+}*/
+.button {
+    background-color: violet;
+    width:100%;
+    height:100%;
+    border-radius: 20px;
+    border:1px solid black
+}
+
+.container2 {
+    display:inline-block;
+    position: relative;
+    width:50%;
+    height:100%;
+    margin-left: 80px;
+}
+.parent_class {
+
+    position: absolute;
+    width:50%;
+    height:10%;
+    /*border:1px solid black;
+    background-color: white;*/
+}
+
+.cls1 {
+    position: absolute;
+    width:50%;
+    height:10%;
+    border:1px solid black;
+    background-color: white;
+    border-radius: 20px;
+     
+}
+.clock_text {
+    position: absolute;
+    margin-left:  10px;
+    margin-top:20px;
+    width: 20%;
+    height:80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+.clock_hours {
+    position: absolute;
+    margin-left:  65px;
+    margin-top:10px;
+    width: 20%;
+    height:80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    color:violet;
+}
+.clock_hours_text {
+    position: absolute;
+    margin-left:  65px;
+    margin-top:30px;
+    width: 20%;
+    height:80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    color:violet;
+
+}
+.clock_hours_dot1 {
+    position: absolute;
+  font-size: 30px;
+   margin-left:  110px;
+   margin-top: -10px;
+   display:inline-block;
+
+}
+.clock_hours_dot2 {
+    position: absolute;
+    font-size: 30px;
+     margin-left:  110px;
+     margin-top: 10px;
+     display:inline-block;
+  
+  }
+  .clock_min{
+    position: absolute;
+    margin-left:  110px;
+    margin-top:10px;
+    width: 20%;
+    height:80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    color:violet;
+  }
+  .clock_min_text {
+    position: absolute;
+    margin-left: 110px;
+    margin-top:30px;
+    width: 20%;
+    height:80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    color:violet;
+  }
+  .clock_min_dot1 {
+    position: absolute;
+    font-size: 30px;
+     margin-left:  160px;
+     margin-top: -10px;
+     display:inline-block;
+  }
+  .clock_min_dot2 {
+    position: absolute;
+    font-size: 30px;
+     margin-left:  160px;
+     margin-top: 10px;
+     display:inline-block;
+  }
+
+  .clock_sec {
+    position: absolute;
+    margin-left:  160px;
+    margin-top:10px;
+    width: 20%;
+    height:80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    color:violet;
+
+  }
+  .clock_sec_text {
+    position: absolute;
+    margin-left: 160px;
+    margin-top:30px;
+    width: 20%;
+    height:80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    color:violet;
+  }
+
+  .am_pm {
+      position: absolute;
+      margin-left: 210px;
+      margin-top:20px;
+      width: 10%;
+      height:30%;
+      background-color: violet;
+      background-position: center;
+      display: inline-block;
+  }
+
+ .shadowOfcls1 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 25px;
+    width:80%;
+    height:80%;
+   border:1px solid black;
+   z-index: -1;
+    background-color: white;
+    opacity:0.71;
+    border-radius: 20px;
+    
+}
+.shadowOfcls2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
+    width:70%;
+    height:70%;
+   border:1px solid black;
+   z-index: -2;
+    background-color: white;
+    opacity:0.22;
+    border-radius: 20px;
+    
+}
+
+
+.cls2 {
+    margin-top: 150px;
+    position:absolute;
+    width:50%;
+    height:50%;
+    display: grid;
+    grid-column: 200px;
+    background-color: white;
+ /*   grid-template-columns: 100px 100px;*/
+    grid-template-rows: 100px auto;
+    border-radius: 20px;
+}
+
+.innercls1 {
+
+  
+ /*   border:1px solid black;*/
+    color:violet;
+    text-align: center;
+    font-size: 30px;
+    margin-top:30px;
+    
+  /*  grid-column: 1;
+    grid-row: 1;*/
+  
+    
+}
+.innercls2 {
+    border:1px solid black;
+    background-image: url("Component.png");
+    background-size:100% 100%;
+    background-position: center;
+   /* grid-column: 2;
+    grid-row: 2;*/
+}
+
+.morning_image {
+    background-image: url("wake_up.png");
+    width: 20%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:inline-block;
+  /*  width:auto;
+    height:auto;*/
+}
+.afternoon_image {
+    background-image: url("lunch_time.png");
+    width: 20%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:inline-block;
+}
+.night_image {
+    background-image: url("nap_time.png");
+    width: 20%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:inline-block;
+}
+.morning_message {
+    display:inline-block;
+    position:absolute;
+    top: 40%;
+}
+.afternoon_message {
+    display:inline-block;
+    position:absolute;
+    top: 45%;
+  
+}
+.night_message {
+    display:inline-block;
+    position:absolute;
+ top: 80%;
+}
+.morning_options {
+    display:inline-block;
+    position:absolute;
+    top:40%;
+    right:10px;
+}
+.afternoon_options {
+    display:inline-block;
+    position:absolute;
+    top:45%;
+    right:10px;
+}
+.night_options {
+    display:inline-block;
+    position:absolute;
+ /*   top:40%;*/
+ top:80%;
+    right:10px;
+}

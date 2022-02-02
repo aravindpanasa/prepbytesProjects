@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="digitalClock.css"></link>
+        <script src = "index.js"></script>
+    </head>
+    <body>
+        <div class="container1">
+            <div class="class1"></div>
+            <div class="class2">
+                <div class="innerclass1">
+                    <div class = "morning_image"></div>
+                    <div class = "morning_message">Set wake up time</div>
+                    <select class = "morning_options" id="time_options">
+                        <option value="0">Default</option>
+                        <option value="1">1AM-2AM</option>
+                        <option value="2">2AM-3AM</option>
+                        <option value="3">3AM-4AM</option>
+                        <option value="4">4AM-5AM</option>
+                        <option value="5">5AM-6AM</option>
+                        <option value="6">6AM-7AM</option>
+                        <option value="7">7AM-8AM</option>
+                        <option value="8">8AM-9AM</option>
+                        <option value="9">9AM-10AM</option>
+                        <option value="10">10AM-11AM</option>
+                        <option value="11">11AM-12PM</option>
+                        <option value="12">12PM-1PM</option>
+                        <option value="13">1PM-2PM</option>
+                        <option value="14">2PM-3PM</option>
+                        <option value="15">3PM-4PM</option>
+                        <option value="16">4PM-5PM</option>
+                        <option value="17">5PM-6PM</option>
+                        <option value="18">6PM-7PM</option>
+                        <option value="19">7PM-8PM</option>
+                        <option value="20">8PM-9PM</option>
+                        <option value="21">9PM-10PM</option>
+                        <option value="22">10PM-11PM</option>
+                        <option value="23">11PM-12AM</option>
+                        
+                        
+                    </select>
+                </div>
+                <div class="innerclass2">
+                    <div class = "afternoon_image"></div>
+                    <div class = "afternoon_message">Set lunch time</div>
+                    <select class = "afternoon_options" id="time_afternoon_options">
+                        <option value="0">Default</option>
+                        <option value="1">1AM-2AM</option>
+                        <option value="2">2AM-3AM</option>
+                        <option value="3">3AM-4AM</option>
+                        <option value="4">4AM-5AM</option>
+                        <option value="5">5AM-6AM</option>
+                        <option value="6">6AM-7AM</option>
+                        <option value="7">7AM-8AM</option>
+                        <option value="8">8AM-9AM</option>
+                        <option value="9">9AM-10AM</option>
+                        <option value="10">10AM-11AM</option>
+                        <option value="11">11AM-12PM</option>
+                        <option value="12">12PM-1PM</option>
+                        <option value="13">1PM-2PM</option>
+                        <option value="14">2PM-3PM</option>
+                        <option value="15">3PM-4PM</option>
+                        <option value="16">4PM-5PM</option>
+                        <option value="17">5PM-6PM</option>
+                        <option value="18">6PM-7PM</option>
+                        <option value="19">7PM-8PM</option>
+                        <option value="20">8PM-9PM</option>
+                        <option value="21">9PM-10PM</option>
+                        <option value="22">10PM-11PM</option>
+                        <option value="23">11PM-12AM</option>
+                        
+                        
+                    </select>
+                </div>
+                <div class="innerclass3">
+                    <div class = "night_image"></div>
+                    <div class = "night_message">Set nap time</div>
+                    <select class = "night_options" id="time_night_options">
+                        <option value="0">Default</option>
+                        <option value="1">1AM-2AM</option>
+                        <option value="2">2AM-3AM</option>
+                        <option value="3">3AM-4AM</option>
+                        <option value="4">4AM-5AM</option>
+                        <option value="5">5AM-6AM</option>
+                        <option value="6">6AM-7AM</option>
+                        <option value="7">7AM-8AM</option>
+                        <option value="8">8AM-9AM</option>
+                        <option value="9">9AM-10AM</option>
+                        <option value="10">10AM-11AM</option>
+                        <option value="11">11AM-12PM</option>
+                        <option value="12">12PM-1PM</option>
+                        <option value="13">1PM-2PM</option>
+                        <option value="14">2PM-3PM</option>
+                        <option value="15">3PM-4PM</option>
+                        <option value="16">4PM-5PM</option>
+                        <option value="17">5PM-6PM</option>
+                        <option value="18">6PM-7PM</option>
+                        <option value="19">7PM-8PM</option>
+                        <option value="20">8PM-9PM</option>
+                        <option value="21">9PM-10PM</option>
+                        <option value="22">10PM-11PM</option>
+                        <option value="23">11PM-12AM</option>
+                        
+                        
+                    </select>
+                </div>
+            </div>
+            
+            <div class="class3">
+                <button class="button" onclick="setTime()">Set Time</button>
+            </div>
+            <div class= "class4" id="textDataAboutTime">
+                <div class="morningTime" id="morningTimeText">No time fixed</div>
+                <div class="afterNoonTime" id="afterNoonTimeText">No time fixed</div>
+                <div class="nightTime" id="nightTimeText">No time fixed</div>
+            </div>
+        </div>
+
+        <div class="container2">
+                <div class="cls1">
+                    <div class="clock_text">Time</div> 
+                    <div class="clock_hours" id="hours">00</div>
+                    <div class="clock_hours_text">hours</div>
+                    <div class="clock_hours_dot1">.</div>
+                    <div class="clock_hours_dot2">.</div>
+                    <div class="clock_min" id="minutes">00</div>
+                    <div class="clock_min_text">minutes</div>
+                    <div class="clock_min_dot1">.</div>
+                    <div class="clock_min_dot2">.</div>
+                    <div class="clock_sec" id="seconds">00</div>
+                    <div class="clock_sec_text">seconds</div>
+                    <div class="am_pm" id="ampm">AM</div>
+                    <div class="shadowOfcls1"></div>
+                    <div class="shadowOfcls2"></div>
+                </div>
+                
+            <div class="cls2">
+                <div class="innercls1" id="textDisplay">
+                    Good Morning
+                </div>
+                <div class="innercls2" id="imageDisplayArea">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
